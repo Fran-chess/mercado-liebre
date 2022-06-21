@@ -60,6 +60,7 @@ body {
 }
 
 .buscar-productos {
+  outline: none;
   border: none;
   width: 90%;
 }
