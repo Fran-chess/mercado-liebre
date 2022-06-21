@@ -23,6 +23,6 @@ app.get('*', function(req,res){
     res.sendFile(path.resolve(__dirname,'./views/404.html'))
 })
 
-app.listen(3080, () => {
-    console.log('listening on http://localhost:3080');
+app.listen(PORT, () => {
+    console.log(`Server running at http://${HOST}:${PORT}/`)
 });
