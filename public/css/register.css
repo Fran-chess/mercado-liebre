@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .title-principal {
+    display: none;
+  }
+  
+  .main-header {
+    background-color: #eac926;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .main-header-top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-header-top-bar img {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .main-header-top-bar form {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .main-logo {
+    width: 50%;
+  }
+  
+  .div-form-buscar-productos {
+    background-color: white;
+    border: solid #eac926 2px;
+    border-radius: 25px;
+    width: 90%;
+    height: 40px;
+    position: relative;
+    padding: 7px 10px;
+  }
+  
+  .div-form-buscar-productos i {
+    position: absolute;
+    right: 0;
+    color: lightgrey;
+    padding-right: 5px;
+    padding-top: 2px;
+  }
+  
+  .buscar-productos {
+    border: none;
+    width: 90%;
+  }
+  
+  .copy-header {
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+    margin: 1em;
+    
+  }
+  
+  .hamburguer-buttom {
+    background-color: #2e78ea;
+    color: white;
+    display: block;
+    max-width: 44px;
+    padding: 10px 0;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+  }
+  
+  .main-navbar {
+    display: none;
+  }
+  
+  .main-main {
+    background-color: #ebebeb;
+    padding-bottom: 0.5em;
+  }
+  
+  .main-banner{
+    width: 100%;
+  }
+  
+  .main-banner img {
+    width: 100%;
+  }
+  
+    /*Aca va el formulario*/
+    .form{
+        padding: 2vw 0vw;
+    }
+
+    .control-form{
+        margin-bottom: 15px;
+
+    }
+
+    .control-form label{
+        margin-bottom: 5px;
+        display: block;
+        
+    }
+
+    .control{
+        padding: 8px;
+        border-radius: 5%;
+    }
+
+    .button-form{
+        border: none;
+        font-size: 20px;
+        color: #fff;
+        border-radius: 5px;
+        display: grid;
+        gap: 50%;
+        width: 40vw;
+        margin: auto;
+    }
+
+    
+    
+  .hr-left {
+    width: 16em;
+    margin-left: 0%;
+    border-color: #ebebeb;
+    display: inline-block;
+    opacity: 0.3;
+  }
+  
+  .hr-right {
+    width: 2.3em;
+    margin-right: 0%;
+    border-color: #ebebeb;
+    display: inline-block;
+    opacity: 0.3;
+  }
+  
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  footer ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 2em 1.1em 0em 1.1em;
+  }
+  
+  footer li {
+    margin-bottom: 2em;
+  }
+  
+  footer li h4 {
+    margin-top: 0.5em;
+    font-size: 22px;
+  }
+  
+  footer ul i {
+    color: #1259c3;
+    font-size: 30px;
+  }
+  
+  footer h5 {
+    display: flex;
+    margin: 8px;
+    text-align: left;
+    justify-content: flex-start;
+    color: #c3c6c8;
+  }
+  
+  @media (min-width: 768px) {
+    .main-header {
+      position: fixed;
+      padding: 0.5em;
+    }
+    .main-header-top-bar {
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+    .main-logo {
+      width: 10em;
+      padding: 0 0.5em;
+    }
+    .div-form-buscar-productos {
+      width: 16em;
+      height: 34px;
+    }
+  
+    .hamburguer-buttom {
+      display: none;
+    }
+  
+    .copy-header {
+      font-size: 2vw;
+      margin: 0;
+    }
+  
+ /*Aca va el formulario*/
+ .form{
+    padding: 7vw 0vw;
+}
+
+.control-form{
+    margin-bottom: 15px;
+
+}
+
+.control-form label{
+    margin-bottom: 5px;
+    display: block;
+    
+}
+
+.control{
+  padding: 8px;
+  border-radius: 5%;
+}
+
+.button-form{
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    display: grid;
+    gap: 50%;
+    width: 15vw;
+    margin: auto;
+}
+  
+    .hr-left {
+      width: 8.5em;
+      padding: 0.1em 0;
+    }
+  
+    .hr-right {
+      width: 2.1em;
+      padding: 0.1em 0;
+    }
+  
+    footer ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: nowrap;
+      padding: 1em 1em 0em;
+    }
+  
+    footer ul i {
+      font-size: 30px;
+    }
+  
+    footer li {
+      margin: 0em 0.7em;
+    }
+  
+    footer li h4 {
+      margin-top: 0.5em;
+      font-size: 1em;
+    }
+  
+    footer li p {
+      font-size: 0.7em;
+    }
+  
+    footer h5 {
+      padding-left: 1.5em;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .main-header-top-bar {
+      justify-content: space-between;
+    }
+  
+    .copy-header {
+      font-size: 1.5em;
+    }
+  
+    .main-logo {
+      width: 13em;
+      padding: 0 0.5em;
+    }
+  
+    .div-form-buscar-productos {
+      width: 35em;
+    }
+  
+    .main-navbar {
+      font-size: 1.2em;
+    }
+  
+    /*Aca va el formulario*/
+
+    .form{
+        padding: 5vw 0vw;
+        font-size: 20px;
+    }
+    
+    .control-form{
+        margin-bottom: 15px;
+    
+    }
+    
+    .control-form label{
+        margin-bottom: 5px;
+        display: block;
+        
+    }
+    
+    .control{
+      padding: 8px;
+      border-radius: 5%;
+  }
+    
+    .button-form{
+        border: none;
+        font-size: 20px;
+        color: #fff;
+        border-radius: 5px;
+        display: grid;
+        gap: 50%;
+        width: 10vw;
+        margin: auto;
+    }
+  
+    .hr-left {
+      width: 15em;
+    }
+  
+    footer {
+      justify-content: center;
+      height: 15em;
+    }
+  
+    footer ul {
+      width: 65%;
+      margin: 1em 20em 0em;
+    }
+  
+    footer li h4 {
+      font-size: 1.5em;
+    }
+  
+    footer li p {
+      font-size: 1em;
+    }
+  
+    footer h5 {
+      padding-left: 0;
+    }
+  }
+  

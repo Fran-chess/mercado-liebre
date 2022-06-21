@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.title-principal {
+  display: none;
+}
+
+.main-header {
+  background-color: #eac926;
+  padding: 20px;
+  width: 100%;
+}
+
+.main-header-top-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-header-top-bar img {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main-header-top-bar form {
+  display: none;
+}
+
+.main-logo {
+  width: 50%;
+}
+
+.copy-header {
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+  margin: 1em;
+  
+}
+
+.main-navbar {
+  display: none;
+}
+
+.hamburguer-buttom{
+  display: none;
+}
+
+/*border: red solid 1px;*/
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.form_title{
+  font-size: 25px;
+  background-color: ghostwhite;
+}
+
+.form_paragraph{
+  font-size: 19px;
+}
+
+ 
+
+.form_group{
+  padding-right: 25%;
+}
+
+
+.form_submit{
+  position: relative;
+  width: 100%;
+  padding: 2%;
+  background-color: lightblue;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 450ms;
+}
+
+.form_submit:hover{
+  background-color: #0022AA;
+}
+
+.hr-left {
+  width: 16em;
+  margin-left: 0%;
+  border-color: #ebebeb;
+  display: inline-block;
+  opacity: 0.3;
+}
+
+.hr-right {
+  width: 2.3em;
+  margin-right: 0%;
+  border-color: #ebebeb;
+  display: inline-block;
+  opacity: 0.3;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  padding: 2em 1.1em 0em 1.1em;
+}
+
+footer li {
+  margin-bottom: 2em;
+}
+
+footer li h4 {
+  margin-top: 0.5em;
+  font-size: 22px;
+}
+
+footer ul i {
+  color: #1259c3;
+  font-size: 30px;
+}
+
+footer h5 {
+  display: flex;
+  margin: 8px;
+  text-align: left;
+  justify-content: flex-start;
+  color: #c3c6c8;
+}
+
+@media (min-width: 768px) {
+  .main-header {
+    position: fixed;
+    padding: 0.5em;
+    position: relative;
+  }
+  .main-header-top-bar {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .main-logo {
+    width: 10em;
+    padding: 0 0.5em;
+  }
+  .div-form-buscar-productos {
+    width: 16em;
+    height: 34px;
+  }
+
+  .copy-header {
+    font-size: 2vw;
+    margin: 0;
+  }
+
+  .hamburguer-buttom {
+    display: none;
+  }
+
+  .main-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.6em;
+    font-size: 2.3vw;
+  }
+
+  .main-navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  .left-navbar {
+    padding-left: 1.4em;
+  }
+
+  .main-navbar ul li {
+    padding-right: 0.5em;
+  }
+
+  .main-navbar a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .main-navbar i {
+    margin-left: 0.3em;
+  }
+
+  .main-main {
+    width: 100%;
+    padding-top: 3.96em;
+  }
+
+  main section article .description {
+    display: block;
+  }
+
+  main section article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  main section div.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    position: absolute;
+    top: 26%;
+    left: 30%;
+    
+  }
+  
+  .form_title{
+    font-size: 25px;
+    background-color: ghostwhite;
+  }
+  
+  .form_paragraph{
+    font-size: 19px;
+  }
+  
+   
+  
+  .form_group{
+    padding-right: 25%;
+  }
+  
+  
+  .form_submit{
+    position: relative;
+    width: 100%;
+    padding: 2%;
+    background-color: lightblue;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .hr-left {
+    width: 8.5em;
+    padding: 0.1em 0;
+  }
+
+  .hr-right {
+    width: 2.1em;
+    padding: 0.1em 0;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+  }
+
+  footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1em 1em 0em;
+  }
+
+  footer ul i {
+    font-size: 30px;
+  }
+
+  footer li {
+    margin: 0em 0.7em;
+  }
+
+  footer li h4 {
+    margin-top: 0.5em;
+    font-size: 1em;
+  }
+
+  footer li p {
+    font-size: 0.7em;
+  }
+
+  footer h5 {
+    padding-left: 1.5em;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-header-top-bar {
+    justify-content: space-between;
+  }
+
+  .copy-header {
+    font-size: 1.5em;
+  }
+
+  .main-logo {
+    width: 13em;
+    padding: 0 0.5em;
+  }
+
+  .div-form-buscar-productos {
+    width: 35em;
+  }
+
+  .main-navbar {
+    font-size: 1.2em;
+  }
+
+  main section div.products article {
+    width: 22%;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    position: absolute;
+    top: 26%;
+    left: 38%;
+  }
+  
+  .form_title{
+    font-size: 25px;
+    background-color: ghostwhite;
+  }
+  
+  .form_paragraph{
+    font-size: 19px;
+  }
+  
+   
+  
+  .form_group{
+    padding-right: 25%;
+  }
+  
+  
+  .form_submit{
+    position: relative;
+    width: 100%;
+    padding: 2%;
+    background-color: lightblue;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .hr-left {
+    width: 15em;
+  }
+
+  footer {
+    justify-content: center;
+    height: 15em;
+  }
+
+  footer ul {
+    width: 65%;
+    margin: 1em 20em 0em;
+  }
+
+  footer li h4 {
+    font-size: 1.5em;
+  }
+
+  footer li p {
+    font-size: 1em;
+  }
+
+  footer h5 {
+    padding-left: 0;
+  }
+}

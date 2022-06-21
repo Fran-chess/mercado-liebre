@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="/css/register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0442526d0c.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="title-principal">Mercado Liebre</h1>
+        <div class="main-header-top-bar">
+            <div class="main-logo">
+                <a href="/"><img class="logo" src="/images/logo-mercado-liebre.svg"
+                    alt="Logo de Mercado Liebre"></a>
+            </div>
+            <h2 class="copy-header">
+                <i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas con tarjetas de crédito
+            </h2>
+        </div>
+        <a href="/" class="hamburguer-buttom"><i class="fa-solid fa-bars"></i></a>
+    </header>
+
+   <!-- Aca va un formulario   -->
+
+    <form action="" method="post" class="form">
+        <div class="control-form"> <!--nombre y apellido-->
+        <label for="">Nombre y apellido:</label>
+            <input type="text" name="Nombre" id="" placeholder="ej:Sofia Perez" class="control">
+        </div>
+        <div class="control-form">   <!--usuario-->
+            <label for="">Nombre de usuario:</label>
+            <input type="text" name="usuario" id="" placeholder="ej:sofiaperez1" class="control">
+        </div>
+        <div class="control-form">   <!--fecha de nacimiento-->
+            <label for="">Fecha de nacimiento:</label>
+            <input type="date" name="date" id="" placeholder="Fecha de nacimiento" class="control"> 
+        </div>
+        <div class="control-form">   <!--domicilio-->
+            <label for="">Domicilio:</label>
+            <input type="text" name="Domicilio" id="" placeholder="ej:Lamadrid 123" class="control">
+            <select name="categoria" class="control">
+                <option value="ba">Buenos Aires</option>
+                <option value="Rosario">Rosario</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Catamarca">Catamarca</option>
+                <option value="Chaco">Chaco</option>
+                <option value="Chubut">Chubut</option>
+                <option value="er">Entre Ríos</option>
+                <option value="rn">Río Negro</option>
+                <option value="Salta">Salta</option>
+                <option value="sc">Santa Cruz</option>
+                <option value="sf">Santa Fe</option>
+                <option value="Tucumán">Tucumán</option>
+                <option value="cordoba">Córdoba</option>
+                <option value="Corrientes">Corrientes</option>
+                <option value="Formosa">Formosa</option>
+                <option value="Jujuy">Jujuy</option>
+                <option value="Neuquén">Neuquén</option>
+                <option value="Misiones">Misiones</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="lr">La Rioja</option>
+                <option value="lp">La Pampa</option>
+                <option value="sj">San Juan</option>
+                <option value="sl">San Luis</option>
+                <option value="sg">Santiago del Estero</option>
+                <option value="tf">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+            </select>
+        </div>
+
+        <div class="control-form">   <!--perfil de usuario-->
+            <label for="">Perfil de usuario:</label>
+            <label>Vendedor
+                <input type="radio" name="perfil-usuario" id="" class="checkbox-perfil">
+            </label>
+            <label>Comprador
+                <input type="radio" name="perfil-usuario" id="" class="checkbox-perfil">
+            </label>
+        
+        </div>
+        <div class="control-form">   <!--categorias de interes-->
+            <label for="">Categorías de interés:</label>
+            <select name="categoria" class="control">
+                <option value="Electro">Electro</option>
+                <option value="Moda">Moda</option>
+                <option value="Hogar">Hogar</option>
+                <option value="Juguetería">Juguetería</option>
+                <option value="Vida sana">Vida sana</option>
+            </select>
+        </div>
+        <div class="control-form">   <!--foto de usuario-->
+            <label for="">Foto de perfil:</label>
+            <input type="file" name="foto-perfil" id="" class="control">
+        </div>
+        <div class="control-form">   <!--contraseña-->
+            <label for="">Contraseña:</label>
+            <input type="password" name="password" id="" class="control">
+        </div>
+        <div class="control-form">   <!--confirmar contraseña-->
+            <label for="">Confirmar contraseña:</label>
+            <input type="password" name="password" id="" class="control">
+        </div>
+        <div class="button-form">   <!--boton d enviar a la pagina principal-->
+            <button type="submit">Enviar perfil</button>
+      
+           <!--boton de borrar todos los datos del formulario-->
+            <button type="reset">Borrar perfil</button>
+        </div>
+    </form>
+
+    <footer>
+        <ul>
+            <li>
+                <i class="fa-solid fa-credit-card"></i>
+                <h4>
+                    Pagá con tarjeta o en efectivo
+                </h4>
+                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</span></li>
+            <li>
+                <i class="fa-solid fa-gift"></i>
+                <h4>
+                    Envío gratis desde $ 2.500
+                </h4>
+                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</span>
+            </li>
+            <li>
+                <i class="fa-solid fa-user-shield"></i>
+                <h4>
+                    Seguridad, de principio a fin
+                </h4>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</span>
+            </li>
+        </ul>
+        <h5>Copyright © 1999-2020 Mercado Liebre S.R.L.</h5>
+    </footer>
+
+</body>
+</html>
